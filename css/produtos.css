@@ -1,0 +1,329 @@
+.intro-produtos {
+  background-image: url("../img/bg-produtos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 136px 0px 150px 0px;
+}
+
+
+.intro-produtos h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
+}
+
+.intro-produtos h1::after {
+    content: "";
+    display: block;
+    width: 150px;
+    background-color: #fff;
+    height: 5px;
+    margin: 20px auto;
+}
+
+@media (max-width: 739px) {
+
+  .intro-produtos h1 {
+      font-size: 2em;
+  }
+
+  .intro-produtos {
+    padding: 100px 0;
+  }
+
+  .intro-produtos h1::after {
+     width: 100px;
+  }
+}
+
+
+
+/* fones de ouvido */
+
+
+.fones {
+  padding: 60px 0 0 0;
+  background: #3B4559;
+}
+
+.fones-container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.fones h1 {
+  text-align: center;
+  font-size: 2.25em;
+  color: #DF921E;
+}
+
+
+.fones h1:after {
+  content: "";
+  display: block;
+  width: 150px;
+  background-color: #DF921E;
+  height: 5px;
+  margin: 20px auto;
+}
+
+.fone-item {
+  width: 300px;
+  margin-top: 40px;
+
+  
+}
+
+
+.fone-info {
+  background: #164A7E;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.50);
+
+}
+
+
+.fone-info p {
+  text-align: center;
+  font-size: 1.125em;
+  color: #fff;
+
+}
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .fones-container {
+      max-width: 720px;
+  }
+  
+  .fone-item {
+      width: 220px;
+  }
+  
+}
+
+@media (max-width: 739px) {
+  .fones-container {
+    max-width: 300px;
+    justify-content: space-between;
+    margin-top: 40px;
+
+  }
+
+  .fone-item {
+   max-width: 135px;
+   margin: 0  auto 20px auto;
+   
+}
+  .fones h1 {
+  font-size: 1.5em;
+}
+  
+.fones h1::after {
+  width: 100px;
+  margin: 5px auto 20px auto;
+}
+
+.fone-info p {
+  font-size: 1em;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+}
+
+.compre p {
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 40px 0 0 0;
+}
+
+
+
+
+.call-compre {
+  display: block;
+  margin-right: 10px;
+  border-radius: 50px;
+  color: #000;
+  background: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  margin: 10px auto 0 auto;
+}
+
+.call-compre:hover {
+    background: #FFE600;
+    color: #2D3277;
+}
+
+@media (max-width: 739px) {
+    .call-compre {
+      font-size: 0.875em;
+      width: 200px;
+      padding: 10px;      
+      margin: 10px auto;
+    }
+
+    .compre p {
+      padding: 10px 0;
+    }
+
+}
+
+
+/* Smartwatches */
+
+.smartwatches {
+  padding: 60px 0 80px 0;
+  background: #3B4559;
+}
+
+.smartwatches-container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.smartwatches  h1 {
+  text-align: center;
+  font-size: 2.25em;
+  color: #DF921E;
+}
+
+.smartwatches h1::after {
+  content: "";
+  display: block;
+  width: 150px;
+  background-color: #DF921E;
+  height: 5px;
+  margin: 20px auto;
+}
+
+.smartwatches-item {
+  width: 300px;
+  margin-top: 40px;
+
+  
+}
+
+
+
+.smartwatches-info {
+  background: #164A7E;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.50);
+
+}
+
+
+.smartwatches-info p {
+  text-align: center;
+  font-size: 1.125em;
+  color: #fff;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .smartwatches-container {
+      max-width: 720px;
+  }
+  
+  .smartwatches-item {
+      width: 220px;
+  }
+  
+}
+
+@media (max-width: 739px) {
+
+  .smartwatches {
+    padding: 40px 0;
+  }
+  .smartwatches-container {
+    max-width: 300px;
+    justify-content: space-between;
+    margin-top: 40px;
+
+  }
+
+  .smartwatches-item {
+   max-width: 135px;
+   margin: 0 auto 20px auto;
+   
+}
+
+.smartwatches h1 {
+  font-size: 1.5em;
+}
+
+.smartwatches h1::after {
+  width: 100px;
+  margin: 5px auto 20px auto;
+}
+
+.smartwatches-info p {
+  font-size: 1em;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+}
+
+
+
+.quebra-produtos {
+  background-image: url("../img/garantia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+@media (max-width: 739px) {
+  .quebra-produtos {
+    background-image: url("../img/garantia-mobile.jpg");
+  }
+}
+
+
+
+.quebra-produtos p {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
+}
+
+.quebra-produtos p {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+@media (max-width: 739px) {
+  .quebra-produtos {
+      padding: 40px 0;
+  }
+
+  .quebra-produtos p {
+      padding-top: 10px;
+      font-size: 1.225em;
+  }
+}
